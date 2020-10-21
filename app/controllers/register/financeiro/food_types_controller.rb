@@ -1,6 +1,6 @@
 class Register::Financeiro::FoodTypesController < ApplicationController
   before_action :set_register_financeiro_food_type, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!
   # GET /register/financeiro/food_types
   # GET /register/financeiro/food_types.json
   def index

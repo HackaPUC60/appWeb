@@ -1,7 +1,7 @@
 class Files::FilesController < ApplicationController
   before_action :set_files_file, only: [:show, :edit, :update, :destroy]
   before_action :convert_data_params, only: [:create, :update]
-
+  before_action :authenticate_user!
   # GET /files/files
   # GET /files/files.json
   def index

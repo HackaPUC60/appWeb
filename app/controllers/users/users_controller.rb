@@ -1,13 +1,14 @@
 class Users::UsersController < ApplicationController
   before_action :set_register_user
   before_action :convert_data_params, only:[:update]
+  before_action :authenticate_user!
 
   def edit
     @user.build_files if !@user.files.present?
   end
 
   def update
-    respond_to do |format|      
+    respond_to do |format|
       if @user.update(register_user_params)
         format.html { redirect_to edit_users_user_path(@user), notice: 'Dados do usuario atualizado' }
         format.json { render :edit, status: :ok, location: @user }

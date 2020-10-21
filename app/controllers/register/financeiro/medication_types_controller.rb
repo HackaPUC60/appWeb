@@ -1,6 +1,6 @@
 class Register::Financeiro::MedicationTypesController < ApplicationController
   before_action :set_register_financeiro_medication_type, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!
   # GET /register/financeiro/medication_types
   # GET /register/financeiro/medication_types.json
   def index

@@ -1,5 +1,6 @@
 class Register::AnimalTypesController < ApplicationController
   before_action :set_register_animal_type, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
   # GET /register/animal_types
   # GET /register/animal_types.json
 

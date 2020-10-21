@@ -1,6 +1,7 @@
 class Register::Financeiro::ProvidersController < ApplicationController
   before_action :set_register_financeiro_provider, only: [:show, :edit, :update, :destroy]
   before_action :params_search, only: [:index]
+  before_action :authenticate_user!
   # GET /register/financeiro/providers
   # GET /register/financeiro/providers.json
   def index
