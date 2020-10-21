@@ -11,7 +11,7 @@ var options1 = {
       columnWidth: "60%"
     }
   },
-  colors: ["#033B45"],
+  colors: ["#06AD21"],
   series: [{
     data: [25, 66, 41, 89, 63, 25, 44, 12, 36, 9, 54]
   }],
@@ -59,7 +59,7 @@ var options2 = {
   markers: {
     size: 0
   },
-  colors: ["#033B45"],
+  colors: ["#06AD21"],
   tooltip: {
     fixed: {
       enabled: !1
@@ -93,7 +93,7 @@ var options3 = {
       columnWidth: "60%"
     }
   },
-  colors: ["#033B45"],
+  colors: ["#06AD21"],
   series: [{
     data: [12, 14, 2, 47, 42, 15, 47, 75, 65, 19, 14]
   }],
@@ -136,7 +136,7 @@ var options4 = {
       columnWidth: "60%"
     }
   },
-  colors: ["#033B45"],
+  colors: ["#06AD21"],
   series: [{
     data: [47, 45, 74, 14, 56, 74, 14, 11, 7, 39, 82]
   }],
@@ -171,7 +171,7 @@ var options = {
     height: 320,
     type: "radialBar"
   },
-  colors: ["#ffbc00", "#033B45", "#0acf97"],
+  colors: ["#ffbc00", "#06AD21", "#0acf97"],
   series: [86, 36, 50],
   labels: ["Total Sent", "Reached", "Opened"],
   plotOptions: {
