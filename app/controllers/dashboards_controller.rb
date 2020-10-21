@@ -4,6 +4,9 @@ class DashboardsController < ApplicationController
   def principal
   end
 
+  def home
+  end
+
   def forms
   end
 

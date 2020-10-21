@@ -13436,6 +13436,26 @@ body.authentication-bg-im {
   background-size: cover
 }
 
+.auth-fluid-botton {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 66vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background: url("images/bg-auth.png") center;
+  background-size: cover
+}
+
 .optional {
   color: #fff;
 }
@@ -13452,6 +13472,20 @@ body.authentication-bg-im {
   background-size: cover;
   position: relative;
   width: 100%
+}
+
+.auth-fluid-botton .auth-fluid-form-box-booton {
+  max-width: 100%;
+  border-radius: 0;
+  z-index: 2;
+  padding: 3rem 2rem;
+  background: url("images/Group.png") center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  margin-top: 66vh;
+  max-height: 34vh;
+  min-height: 34vh;
 }
 
 .auth-fluid .auth-fluid-right {

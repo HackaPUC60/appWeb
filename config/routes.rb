@@ -37,6 +37,7 @@ resources :dashboards do
     get 'forms'
     get 'notification'
     get 'troca_mudulo'
+    get :home
   end
 end
 
