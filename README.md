@@ -34,6 +34,18 @@ Ambos o processos de instalacao pode ser feitos por este guia:
 - Execure o comando:
   - rails s (Neste passo o camando ira subir o servidor localmente)
 
+## Hospedagem 
+
+ Projeto possui uma versao beta em desenvolvimento que ja pode ser acessada pelo link:
+ 
+ - https://medeumsinal.herokuapp.com/dashboards/home
+ 
+   Podendo fazer liguin com usuario teste:
+    - email: teste@gmail.com
+    - senha: 123123
+    
+    Tento a funcionalidade de cadastro desponivel tambem caso queria fazer.
+
 ## Checklist das funcionalidade do app
 
 - [x] Estrutura base para desenvolvimento com todas as dependencias
