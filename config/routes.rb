@@ -39,6 +39,7 @@ resources :dashboards do
     get 'troca_mudulo'
     get :home
     get :exercios
+    get :exercios_correto
   end
 end
 

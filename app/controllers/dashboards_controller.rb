@@ -10,6 +10,9 @@ class DashboardsController < ApplicationController
   def exercios
   end
 
+  def exercios_correto
+  end
+
   def forms
   end
 
