@@ -38,6 +38,7 @@ resources :dashboards do
     get 'notification'
     get 'troca_mudulo'
     get :home
+    get :exercios
   end
 end
 

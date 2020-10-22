@@ -7,6 +7,9 @@ class DashboardsController < ApplicationController
   def home
   end
 
+  def exercios
+  end
+
   def forms
   end
 
