@@ -40,6 +40,7 @@ resources :dashboards do
     get :home
     get :exercios
     get :exercios_correto
+    get :exercios_incorreto
   end
 end
 
